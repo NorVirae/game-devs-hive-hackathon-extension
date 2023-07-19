@@ -1,0 +1,18 @@
+{
+    "name": "Game Devs Hive",
+    "version": "1.0.0",
+    "description": "The Coal City Gaming Community",
+    "manifest_version": 3,
+    "author": "Norbert Frank Mba",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Latest Covid Report"
+    },
+    "permissions": [
+        "tabs"
+      ],
+      
+      "chrome_url_overrides":{
+        "newtab":"index.html"
+      }
+}
